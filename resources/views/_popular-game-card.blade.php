@@ -6,7 +6,7 @@
                 <img
                     src="{{ Str::replaceFirst('thumb', 'cover_big', $game['cover']['url']) }}"
                     alt="game cover"
-                    class="hover:opacity-75 transition ease-in-out duration-150"
+                    class="hover:opacity-75 transition ease-in-out duration-150 h-56 w-48"
                 >
             </a>
 

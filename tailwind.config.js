@@ -20,7 +20,11 @@ module.exports = {
             //   speed: '500ms',
             // },
           }),
-    extend: {},
+        extend: {
+            spacing: {
+                '44': '11rem'
+            }
+        },
     },
     variants: {
         spinner: ['responsive'],
