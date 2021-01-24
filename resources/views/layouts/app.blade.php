@@ -7,6 +7,8 @@
     <title>Laracasts Video Games</title>
 
     <link rel="stylesheet" href="/css/main.css">
+    @livewireStyles
+
 </head>
 <body class="bg-gray-900 text-white">
     <header class="border-b border-gray-800">
@@ -48,5 +50,6 @@
         </div>
     </footer>
 
+    @livewireScripts
 </body>
 </html>
