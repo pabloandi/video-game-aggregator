@@ -148,7 +148,7 @@
             <h2 class="text-blue-500 uppercase tracking-wide font-semibold">Similar Games</h2>
             <div class="similar-games text-sm grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 xl:grid-cols-6 gap-12">
                 @foreach ($game['similarGames'] as $similar_game)
-                    @include('_similar-game-card', compact('similar_game'))
+                    <x-game-card :game="$similar_game" />
                 @endforeach
 
             </div>

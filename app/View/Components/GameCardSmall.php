@@ -4,7 +4,7 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class GameCard extends Component
+class GameCardSmall extends Component
 {
     public $game;
 
@@ -25,6 +25,6 @@ class GameCard extends Component
      */
     public function render()
     {
-        return view('components.game-card');
+        return view('components.game-card-small');
     }
 }
