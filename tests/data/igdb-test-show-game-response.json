@@ -1,0 +1,475 @@
+[
+    {
+        "id": 36550,
+        "aggregated_rating": 85.7857142857143,
+        "cover": {
+            "id": 112257,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2em9.jpg"
+        },
+        "genres": [
+            {
+                "id": 12,
+                "name": "Role-playing (RPG)"
+            },
+            {
+                "id": 25,
+                "name": "Hack and slash/Beat 'em up"
+            }
+        ],
+        "involved_companies": [
+            {
+                "id": 105230,
+                "company": {
+                    "id": 112,
+                    "name": "Sega"
+                }
+            },
+            {
+                "id": 105231,
+                "company": {
+                    "id": 19080,
+                    "name": "Ryu ga Gotoku Studios"
+                }
+            }
+        ],
+        "name": "Yakuza: Like a Dragon",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            },
+            {
+                "id": 167,
+                "abbreviation": "PS5"
+            },
+            {
+                "id": 169,
+                "abbreviation": "Series X"
+            }
+        ],
+        "rating": 96.3192837401399,
+        "release_dates": [
+            {
+                "id": 207992,
+                "date": 1579132800
+            },
+            {
+                "id": 209962,
+                "date": 1604966400
+            },
+            {
+                "id": 217343,
+                "date": 1614643200
+            },
+            {
+                "id": 217344,
+                "date": 1604966400
+            },
+            {
+                "id": 217345,
+                "date": 1604966400
+            },
+            {
+                "id": 217346,
+                "date": 1604966400
+            }
+        ],
+        "screenshots": [
+            {
+                "id": 322653,
+                "alpha_channel": false,
+                "animated": false,
+                "game": 36550,
+                "height": 576,
+                "image_id": "sc6wyl",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6wyl.jpg",
+                "width": 1024,
+                "checksum": "5f37c1de-a7dc-c6bf-9968-241206186341"
+            },
+            {
+                "id": 322654,
+                "alpha_channel": false,
+                "animated": false,
+                "game": 36550,
+                "height": 576,
+                "image_id": "sc6wym",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6wym.jpg",
+                "width": 1024,
+                "checksum": "98998448-0e9c-2a6e-737b-80e37c6863aa"
+            },
+            {
+                "id": 322655,
+                "alpha_channel": false,
+                "animated": false,
+                "game": 36550,
+                "height": 576,
+                "image_id": "sc6wyn",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6wyn.jpg",
+                "width": 1024,
+                "checksum": "0713b3f1-faba-0058-dd95-6bedc79f2c3e"
+            },
+            {
+                "id": 322656,
+                "alpha_channel": false,
+                "animated": false,
+                "game": 36550,
+                "height": 576,
+                "image_id": "sc6wyo",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6wyo.jpg",
+                "width": 1024,
+                "checksum": "3c73aba6-1312-77b5-1a22-ef5be8593ea2"
+            },
+            {
+                "id": 322657,
+                "alpha_channel": false,
+                "animated": false,
+                "game": 36550,
+                "height": 576,
+                "image_id": "sc6wyp",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6wyp.jpg",
+                "width": 1024,
+                "checksum": "38d0adff-474c-6863-bd90-c55f4385daba"
+            },
+            {
+                "id": 322658,
+                "alpha_channel": false,
+                "animated": false,
+                "game": 36550,
+                "height": 576,
+                "image_id": "sc6wyq",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6wyq.jpg",
+                "width": 1024,
+                "checksum": "4c4176e0-9c34-0a89-555c-4bbcf2dc2601"
+            },
+            {
+                "id": 322659,
+                "alpha_channel": false,
+                "animated": false,
+                "game": 36550,
+                "height": 576,
+                "image_id": "sc6wyr",
+                "url": "//images.igdb.com/igdb/image/upload/t_thumb/sc6wyr.jpg",
+                "width": 1024,
+                "checksum": "f5f858b7-344a-f803-232a-f23c92bdf09a"
+            }
+        ],
+        "similar_games": [
+            {
+                "id": 76253,
+                "cover": {
+                    "id": 82048,
+                    "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rb4.jpg"
+                },
+                "name": "Devil May Cry 5",
+                "platforms": [
+                    {
+                        "id": 6,
+                        "abbreviation": "PC"
+                    },
+                    {
+                        "id": 48,
+                        "abbreviation": "PS4"
+                    },
+                    {
+                        "id": 49,
+                        "abbreviation": "XONE"
+                    }
+                ],
+                "rating": 85.3220391604614,
+                "slug": "devil-may-cry-5"
+            },
+            {
+                "id": 78632,
+                "name": "Untitled Danganronpa Game",
+                "platforms": [
+                    {
+                        "id": 46,
+                        "abbreviation": "Vita"
+                    },
+                    {
+                        "id": 48,
+                        "abbreviation": "PS4"
+                    }
+                ],
+                "slug": "untitled-danganronpa-game"
+            },
+            {
+                "id": 103168,
+                "cover": {
+                    "id": 123801,
+                    "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nix.jpg"
+                },
+                "name": "Warhammer: Chaosbane",
+                "platforms": [
+                    {
+                        "id": 6,
+                        "abbreviation": "PC"
+                    },
+                    {
+                        "id": 48,
+                        "abbreviation": "PS4"
+                    },
+                    {
+                        "id": 49,
+                        "abbreviation": "XONE"
+                    },
+                    {
+                        "id": 167,
+                        "abbreviation": "PS5"
+                    },
+                    {
+                        "id": 169,
+                        "abbreviation": "Series X"
+                    }
+                ],
+                "rating": 73.0784671106543,
+                "slug": "warhammer-chaosbane"
+            },
+            {
+                "id": 103303,
+                "cover": {
+                    "id": 91145,
+                    "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1ybt.jpg"
+                },
+                "name": "The Elder Scrolls: Blades",
+                "platforms": [
+                    {
+                        "id": 34,
+                        "abbreviation": "Android"
+                    },
+                    {
+                        "id": 39,
+                        "abbreviation": "iOS"
+                    },
+                    {
+                        "id": 130,
+                        "abbreviation": "Switch"
+                    }
+                ],
+                "rating": 42.5709854988955,
+                "slug": "the-elder-scrolls-blades"
+            },
+            {
+                "id": 105049,
+                "cover": {
+                    "id": 75344,
+                    "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1m4w.jpg"
+                },
+                "name": "Remnant: From the Ashes",
+                "platforms": [
+                    {
+                        "id": 6,
+                        "abbreviation": "PC"
+                    },
+                    {
+                        "id": 48,
+                        "abbreviation": "PS4"
+                    },
+                    {
+                        "id": 49,
+                        "abbreviation": "XONE"
+                    }
+                ],
+                "rating": 79.375587690719,
+                "slug": "remnant-from-the-ashes"
+            },
+            {
+                "id": 106987,
+                "cover": {
+                    "id": 97981,
+                    "url": "//images.igdb.com/igdb/image/upload/t_thumb/co23lp.jpg"
+                },
+                "name": "Torchlight III",
+                "platforms": [
+                    {
+                        "id": 6,
+                        "abbreviation": "PC"
+                    },
+                    {
+                        "id": 48,
+                        "abbreviation": "PS4"
+                    },
+                    {
+                        "id": 49,
+                        "abbreviation": "XONE"
+                    },
+                    {
+                        "id": 130,
+                        "abbreviation": "Switch"
+                    }
+                ],
+                "rating": 31.2995391194,
+                "slug": "torchlight-iii"
+            },
+            {
+                "id": 113109,
+                "cover": {
+                    "id": 81944,
+                    "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1r88.jpg"
+                },
+                "name": "Marvel Ultimate Alliance 3: The Black Order",
+                "platforms": [
+                    {
+                        "id": 130,
+                        "abbreviation": "Switch"
+                    }
+                ],
+                "rating": 72.9060896412285,
+                "slug": "marvel-ultimate-alliance-3-the-black-order"
+            },
+            {
+                "id": 115278,
+                "cover": {
+                    "id": 93448,
+                    "url": "//images.igdb.com/igdb/image/upload/t_thumb/co203s.jpg"
+                },
+                "name": "Rune Factory 4 Special",
+                "platforms": [
+                    {
+                        "id": 130,
+                        "abbreviation": "Switch"
+                    }
+                ],
+                "rating": 80.1152429730073,
+                "slug": "rune-factory-4-special"
+            },
+            {
+                "id": 115280,
+                "cover": {
+                    "id": 75082,
+                    "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1lxm.jpg"
+                },
+                "name": "Oninaki",
+                "platforms": [
+                    {
+                        "id": 6,
+                        "abbreviation": "PC"
+                    },
+                    {
+                        "id": 48,
+                        "abbreviation": "PS4"
+                    },
+                    {
+                        "id": 130,
+                        "abbreviation": "Switch"
+                    }
+                ],
+                "rating": 50.0,
+                "slug": "oninaki"
+            }
+        ],
+        "slug": "yakuza-like-a-dragon",
+        "summary": "Become Ichiban Kasuga, a low-ranking yakuza grunt left on the brink of death by the man he trusted most. Take up your legendary bat and get ready to crack some underworld skulls in dynamic RPG combat set against the backdrop of modern-day Japan.",
+        "videos": [
+            {
+                "id": 29699,
+                "game": 36550,
+                "name": "Teaser",
+                "video_id": "M9_L2TA0IEY",
+                "checksum": "71d4a920-95e9-d51d-e3e9-1bc60dadd976"
+            },
+            {
+                "id": 29915,
+                "game": 36550,
+                "name": "Trailer",
+                "video_id": "FeZ_Z1diuig",
+                "checksum": "16c5d3ac-11bb-1ca1-d13f-d61327981050"
+            },
+            {
+                "id": 32225,
+                "game": 36550,
+                "name": "Gameplay video",
+                "video_id": "79sDRvm8yk8",
+                "checksum": "3e0168ef-8bcd-49e0-4fcb-2058833c6840"
+            },
+            {
+                "id": 35775,
+                "game": 36550,
+                "name": "Cinematic Trailer",
+                "video_id": "7s5C-BG9glU",
+                "checksum": "0a24ccb6-7cef-cec6-ace3-7563f9bf1500"
+            },
+            {
+                "id": 36996,
+                "game": 36550,
+                "name": "Gameplay Video",
+                "video_id": "eFyLdQpnDvI",
+                "checksum": "53ee14e1-860f-188e-7dda-c1cba75bce2b"
+            }
+        ],
+        "websites": [
+            {
+                "id": 117797,
+                "category": 3,
+                "game": 36550,
+                "trusted": true,
+                "url": "https://en.wikipedia.org/wiki/Yakuza:_Like_a_Dragon",
+                "checksum": "887fcaa6-7ec2-ab70-27d4-c85c6b03ec55"
+            },
+            {
+                "id": 140207,
+                "category": 13,
+                "game": 36550,
+                "trusted": true,
+                "url": "https://store.steampowered.com/app/1235140",
+                "checksum": "9d248a7e-aebc-c85a-c45b-fd142d751387"
+            },
+            {
+                "id": 148952,
+                "category": 1,
+                "game": 36550,
+                "trusted": false,
+                "url": "https://likeadragon.sega.com/",
+                "checksum": "95ad5b55-4ff5-5038-2961-711e5bc364b1"
+            },
+            {
+                "id": 148953,
+                "category": 2,
+                "game": 36550,
+                "trusted": false,
+                "url": "https://yakuza.fandom.com/wiki/Yakuza:_Like_a_Dragon",
+                "checksum": "3e5c51cc-bd63-48e8-718d-15e5005d3aeb"
+            },
+            {
+                "id": 148954,
+                "category": 4,
+                "game": 36550,
+                "trusted": true,
+                "url": "https://www.facebook.com/RGGStudioWest",
+                "checksum": "302cd1c5-53a2-96fa-2804-9972aa6d1745"
+            },
+            {
+                "id": 148955,
+                "category": 5,
+                "game": 36550,
+                "trusted": true,
+                "url": "https://twitter.com/RGGStudio",
+                "checksum": "9ade97a2-70c4-2b28-1bc1-62866628b670"
+            },
+            {
+                "id": 148956,
+                "category": 8,
+                "game": 36550,
+                "trusted": true,
+                "url": "https://www.instagram.com/RGGStudioWest",
+                "checksum": "e14c1d1b-82bc-cae3-a742-970a774d206e"
+            },
+            {
+                "id": 148957,
+                "category": 14,
+                "game": 36550,
+                "trusted": true,
+                "url": "https://www.reddit.com/r/yakuzagames",
+                "checksum": "1a339f68-78a5-825d-dc84-118f6f84e9df"
+            }
+        ]
+    }
+]

@@ -55,7 +55,12 @@ class GamesController extends Controller
         ])
         ->withBody(
             "
-            fields slug, name, summary, cover.url, release_dates.date, rating, aggregated_rating, platforms.abbreviation, involved_companies.company.name, genres.name, websites.*, videos.*, screenshots.*, similar_games.platforms.abbreviation, similar_games.name, similar_games.slug, similar_games.rating, similar_games.cover.url;
+            fields slug, name, summary, cover.url, release_dates.date,
+            rating, aggregated_rating, platforms.abbreviation,
+            involved_companies.company.name, genres.name, websites.*,
+            videos.*, screenshots.*, similar_games.platforms.abbreviation,
+            similar_games.name, similar_games.slug,
+            similar_games.rating, similar_games.cover.url;
 
             where slug = \"{$slug}\";
             limit 1;
@@ -67,7 +72,7 @@ class GamesController extends Controller
 
         abort_if(!$game, 404);
 
-        // dd($this->formatGameForView($game[0]));
+
 
         return view('show', [
             'game'  =>  $this->formatGameForView($game[0])

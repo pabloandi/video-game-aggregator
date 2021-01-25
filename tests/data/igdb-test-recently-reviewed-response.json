@@ -1,0 +1,129 @@
+[
+    {
+        "id": 141408,
+        "cover": {
+            "id": 121126,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lgm.jpg"
+        },
+        "name": "Zaos",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            }
+        ],
+        "rating": 100.0,
+        "rating_count": 9,
+        "release_dates": [
+            {
+                "id": 220766,
+                "date": 1606435200
+            }
+        ],
+        "slug": "zaos",
+        "summary": "International Free to Play Fantasy MMORPG game, featuring incredible journeys through a beautiful expanding world.",
+        "total_rating": 100.0
+    },
+    {
+        "id": 116559,
+        "cover": {
+            "id": 82270,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rha.jpg"
+        },
+        "name": "Persona 5 Royal Limited Edition",
+        "platforms": [
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            }
+        ],
+        "rating": 95.7833956397824,
+        "rating_count": 7,
+        "release_dates": [
+            {
+                "id": 168688,
+                "date": 1572480000
+            },
+            {
+                "id": 168743,
+                "date": 1609372800
+            },
+            {
+                "id": 168744,
+                "date": 1609372800
+            },
+            {
+                "id": 168745,
+                "date": 1609372800
+            }
+        ],
+        "slug": "persona-5-royal-limited-edition",
+        "summary": "A limited edition version Persona 5 Royal, called Persona 5 The Royal in Japan.",
+        "total_rating": 95.7833956397824
+    },
+    {
+        "id": 1433,
+        "cover": {
+            "id": 101720,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co26hk.jpg"
+        },
+        "name": "Fire Emblem: Shadow Dragon and the Blade of Light",
+        "platforms": [
+            {
+                "id": 5,
+                "abbreviation": "Wii"
+            },
+            {
+                "id": 37,
+                "abbreviation": "3DS"
+            },
+            {
+                "id": 41,
+                "abbreviation": "WiiU"
+            },
+            {
+                "id": 99,
+                "abbreviation": "famicom"
+            },
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            }
+        ],
+        "rating": 90.13679631925359,
+        "rating_count": 9,
+        "release_dates": [
+            {
+                "id": 216383,
+                "date": 1255996800
+            },
+            {
+                "id": 216384,
+                "date": 640569600
+            },
+            {
+                "id": 216385,
+                "date": 1607040000
+            },
+            {
+                "id": 216386,
+                "date": 1607040000
+            },
+            {
+                "id": 216387,
+                "date": 1552435200
+            },
+            {
+                "id": 216388,
+                "date": 1401840000
+            },
+            {
+                "id": 216389,
+                "date": 1343779200
+            }
+        ],
+        "slug": "fire-emblem-shadow-dragon-and-the-blade-of-light",
+        "summary": "Fire Emblem: The Dark Dragon and Sword of Light is the first game in the Fire Emblem series, developed by Intelligent Systems and published by Nintendo. It was first released on the Famicom (known internationally as the Nintendo Entertainment System) on April 20, 1990. It takes place on the continent of Archanea. It stars Marth, a character who later appeared in Super Smash Bros. Melee. It has never been officially released outside of Japan.",
+        "total_rating": 72.5683981596268
+    }
+]

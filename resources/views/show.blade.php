@@ -136,7 +136,13 @@
             <h2 class="text-blue-500 uppercase tracking-wide font-semibold">Images</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-12 mt-8">
                 @foreach ($game['screenshots'] as $screenshot)
-                    @include('_game-screenshot', compact('screenshot'))
+                    <a href="{{ $screenshot['huge'] }}">
+                        <img
+                            src="{{ $screenshot['big'] }}"
+                            alt="screenshot"
+                            class="hover:opacity-75 transition ease-in-out duration-150"
+                        >
+                    </a>
                 @endforeach
 
             </div>

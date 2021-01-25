@@ -1,0 +1,294 @@
+[
+    {
+        "id": 26472,
+        "cover": {
+            "id": 83503,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1sfj.jpg"
+        },
+        "name": "Disco Elysium",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 14,
+                "abbreviation": "Mac"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            },
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            },
+            {
+                "id": 167,
+                "abbreviation": "PS5"
+            },
+            {
+                "id": 169,
+                "abbreviation": "Series X"
+            }
+        ],
+        "rating": 92.4168923513627,
+        "rating_count": 139,
+        "release_dates": [
+            {
+                "id": 177052,
+                "date": 1571097600
+            },
+            {
+                "id": 195996,
+                "date": 1587945600
+            },
+            {
+                "id": 221490,
+                "date": 1614556800
+            },
+            {
+                "id": 221491,
+                "date": 1614556800
+            },
+            {
+                "id": 221620,
+                "date": 1632960000
+            },
+            {
+                "id": 221621,
+                "date": 1632960000
+            },
+            {
+                "id": 221622,
+                "date": 1632960000
+            }
+        ],
+        "slug": "disco-elysium",
+        "summary": "A CRPG in which, waking up in a hotel room a total amnesiac with highly opinionated voices in his head, a middle-aged detective on a murder case inadvertently ends up playing a part in the political dispute between a local labour union and a larger international body, all while struggling to piece together his past, diagnose the nature of the reality around him and come to terms with said reality.",
+        "total_rating": 90.77094617568136
+    },
+    {
+        "id": 75239,
+        "cover": {
+            "id": 112974,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2f66.jpg"
+        },
+        "name": "Spelunky 2",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            }
+        ],
+        "rating": 89.5696024908363,
+        "rating_count": 7,
+        "release_dates": [
+            {
+                "id": 210477,
+                "date": 1600128000
+            },
+            {
+                "id": 210478,
+                "date": 1601337600
+            },
+            {
+                "id": 221938,
+                "date": 1640908800
+            }
+        ],
+        "slug": "spelunky-2",
+        "summary": "Spelunky returns in this greatly-expanded sequel to the original roguelike platformer! Meet the next generation of explorers as they find themselves on the Moon, searching for treasure and missing family. Spelunky 2 builds upon the unique, randomized challenges that made the original a classic, offering a huge adventure designed to satisfy players old and new.",
+        "total_rating": 88.28480124541815
+    },
+    {
+        "id": 3029,
+        "cover": {
+            "id": 90942,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1y66.jpg"
+        },
+        "name": "Spelunky",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 9,
+                "abbreviation": "PS3"
+            },
+            {
+                "id": 36,
+                "abbreviation": "xla"
+            },
+            {
+                "id": 45,
+                "abbreviation": "psn"
+            },
+            {
+                "id": 46,
+                "abbreviation": "Vita"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            }
+        ],
+        "rating": 88.2344410812746,
+        "rating_count": 95,
+        "release_dates": [
+            {
+                "id": 72423,
+                "date": 1341360000
+            },
+            {
+                "id": 72424,
+                "date": 1375920000
+            },
+            {
+                "id": 72428,
+                "date": 1412640000
+            },
+            {
+                "id": 72429,
+                "date": 1412726400
+            },
+            {
+                "id": 72430,
+                "date": 1414022400
+            },
+            {
+                "id": 125459,
+                "date": 1377561600
+            },
+            {
+                "id": 125460,
+                "date": 1377561600
+            },
+            {
+                "id": 125461,
+                "date": 1377648000
+            },
+            {
+                "id": 125462,
+                "date": 1377648000
+            },
+            {
+                "id": 125463,
+                "date": 1377648000
+            },
+            {
+                "id": 125464,
+                "date": 1377648000
+            },
+            {
+                "id": 125465,
+                "date": 1414022400
+            },
+            {
+                "id": 125466,
+                "date": 1414022400
+            },
+            {
+                "id": 125467,
+                "date": 1412726400
+            },
+            {
+                "id": 134131,
+                "date": 1377561600
+            },
+            {
+                "id": 134132,
+                "date": 1377648000
+            },
+            {
+                "id": 221939,
+                "date": 1640908800
+            }
+        ],
+        "slug": "spelunky",
+        "summary": "Spelunky (also known as Spelunky HD) is a remake of Spelunky (now known as Spelunky Classic), an open source indie platformer video game created by Derek Yu and originally released as freeware for Microsoft Windows. The player controls a spelunker who explores a series of caves while collecting treasure, saving damsels, fighting enemies and dodging traps. The caves are procedurally generated, making each run through the game unique. Spelunky is one of the first examples of a roguelike-like, borrowing concepts from the roguelike genre, and was the influence for many later roguelike-like games.",
+        "total_rating": 89.95055387397065
+    },
+    {
+        "id": 36929,
+        "cover": {
+            "id": 105567,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co29gf.jpg"
+        },
+        "name": "Pathfinder: Kingmaker",
+        "platforms": [
+            {
+                "id": 3,
+                "abbreviation": "Linux"
+            },
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 14,
+                "abbreviation": "Mac"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            }
+        ],
+        "rating": 86.05174741637191,
+        "rating_count": 31,
+        "release_dates": [
+            {
+                "id": 157832,
+                "date": 1537833600
+            },
+            {
+                "id": 159198,
+                "date": 1537833600
+            },
+            {
+                "id": 159199,
+                "date": 1537833600
+            },
+            {
+                "id": 212012,
+                "date": 1537833600
+            },
+            {
+                "id": 212013,
+                "date": 1537833600
+            },
+            {
+                "id": 212014,
+                "date": 1640908800
+            },
+            {
+                "id": 212015,
+                "date": 1640908800
+            }
+        ],
+        "slug": "pathfinder-kingmaker",
+        "summary": "Pathfinder: Kingmaker is the first isometric party-based computer RPG set in the Pathfinder fantasy universe. Enjoy a classic RPG experience inspired by games like Baldur's Gate, Fallout 1 and 2 and Arcanum. Explore and conquer the Stolen Lands and make them your kingdom!",
+        "total_rating": 75.85920704151931
+    }
+]

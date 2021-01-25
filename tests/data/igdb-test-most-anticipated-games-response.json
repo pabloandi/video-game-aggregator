@@ -1,0 +1,234 @@
+[
+    {
+        "id": 26472,
+        "cover": {
+            "id": 83503,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1sfj.jpg"
+        },
+        "name": "Disco Elysium",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 14,
+                "abbreviation": "Mac"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            },
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            },
+            {
+                "id": 167,
+                "abbreviation": "PS5"
+            },
+            {
+                "id": 169,
+                "abbreviation": "Series X"
+            }
+        ],
+        "rating": 92.4168923513627,
+        "rating_count": 139,
+        "release_dates": [
+            {
+                "id": 177052,
+                "date": 1571097600
+            },
+            {
+                "id": 195996,
+                "date": 1587945600
+            },
+            {
+                "id": 221490,
+                "date": 1614556800
+            },
+            {
+                "id": 221491,
+                "date": 1614556800
+            },
+            {
+                "id": 221620,
+                "date": 1632960000
+            },
+            {
+                "id": 221621,
+                "date": 1632960000
+            },
+            {
+                "id": 221622,
+                "date": 1632960000
+            }
+        ],
+        "slug": "disco-elysium",
+        "summary": "A CRPG in which, waking up in a hotel room a total amnesiac with highly opinionated voices in his head, a middle-aged detective on a murder case inadvertently ends up playing a part in the political dispute between a local labour union and a larger international body, all while struggling to piece together his past, diagnose the nature of the reality around him and come to terms with said reality.",
+        "total_rating": 90.77094617568136
+    },
+    {
+        "id": 12527,
+        "cover": {
+            "id": 79455,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1pb3.jpg"
+        },
+        "name": "Yakuza 6: The Song of Life",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            }
+        ],
+        "rating": 84.9534404232672,
+        "rating_count": 18,
+        "release_dates": [
+            {
+                "id": 107011,
+                "date": 1481155200
+            },
+            {
+                "id": 141282,
+                "date": 1523923200
+            },
+            {
+                "id": 141283,
+                "date": 1523923200
+            },
+            {
+                "id": 223719,
+                "date": 1616630400
+            },
+            {
+                "id": 223720,
+                "date": 1616630400
+            }
+        ],
+        "slug": "yakuza-6-the-song-of-life",
+        "summary": "How far will you go for family? Hoping to quietly settle down after a brief stint in prison, reformed yakuza Kazuma Kiryu returns to find danger surrounding the lives of those he values most.",
+        "total_rating": 83.8002496233983
+    },
+    {
+        "id": 7168,
+        "cover": {
+            "id": 81458,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1quq.jpg"
+        },
+        "name": "The Dark Eye: Memoria",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 14,
+                "abbreviation": "Mac"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            },
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            },
+            {
+                "id": 169,
+                "abbreviation": "Series X"
+            }
+        ],
+        "rating": 80.6468425820305,
+        "rating_count": 21,
+        "release_dates": [
+            {
+                "id": 18127,
+                "date": 1377820800
+            },
+            {
+                "id": 18128,
+                "date": 1377820800
+            },
+            {
+                "id": 224382,
+                "date": 1611705600
+            },
+            {
+                "id": 226285,
+                "date": 1611705600
+            },
+            {
+                "id": 226286,
+                "date": 1611705600
+            }
+        ],
+        "slug": "the-dark-eye-memoria",
+        "summary": "Memoria tells the tale of princess Sadja of the faraway-land of Fasar, who once ventured into war to fight demons in the Gorian Desert.  Her goal – to become the greatest hero of all time – was foiled under mysterious circumstances.  Something had occurred, the girl disappeared and her tale was eventually forgotten.\n\nFive centuries pass, until one day Geron, a young bird catcher, meets a traveling merchant named Fahi in his native forest. This merchant promises to turn Gerons girlfriend Nuri, who has been transformed into a Raven, back into human form. But this favor comes at a price: Geron has to finally solve the mystery of Sadja’s fate.\n\nHe agrees without hesitation – unknowing that this will trigger a chain of events that will soon cast a shadow on his homeland and turn his present into a dark image of its long forgotten past…",
+        "total_rating": 78.6567546243486
+    },
+    {
+        "id": 25837,
+        "cover": {
+            "id": 88907,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1wln.jpg"
+        },
+        "name": "The Pedestrian",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 14,
+                "abbreviation": "Mac"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 167,
+                "abbreviation": "PS5"
+            }
+        ],
+        "rating": 80.2119920147436,
+        "rating_count": 10,
+        "release_dates": [
+            {
+                "id": 184759,
+                "date": 1580256000
+            },
+            {
+                "id": 184760,
+                "date": 1580256000
+            },
+            {
+                "id": 225464,
+                "date": 1611878400
+            },
+            {
+                "id": 225465,
+                "date": 1580256000
+            },
+            {
+                "id": 225467,
+                "date": 1611878400
+            }
+        ],
+        "slug": "the-pedestrian",
+        "summary": "The Pedestrian is a 2.5D puzzle platformer that takes “puzzle platforming” literally. You play as The Pedestrian (aka the male bathroom symbol) who works in a restroom sign standing beside his Beloved (the female symbol). When she disappears, you must escape your day job and embark on a perilous journey where you progress by piecing the “sign world” back together in search of the one you love.",
+        "total_rating": 76.3559960073718
+    }
+]

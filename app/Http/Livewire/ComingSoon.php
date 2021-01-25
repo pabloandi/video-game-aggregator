@@ -15,7 +15,7 @@ class ComingSoon extends Component
     {
         $current = Carbon::now()->timestamp;
 
-        $comingSoonUnformatted = Cache::remember('most-anticipated', 7, function() use($current) {
+        $comingSoonUnformatted = Cache::remember('coming-soon', 7, function() use($current) {
             return Http::withHeaders([
                 'Client-ID'        => config('services.igdb.client-id'),
                 'Authorization'    => config('services.igdb.client-auth'),

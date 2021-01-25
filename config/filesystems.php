@@ -35,6 +35,11 @@ return [
             'root' => storage_path('app'),
         ],
 
+        'tests_data' => [
+            'driver' => 'local',
+            'root' => base_path('tests/data'),
+        ],
+
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),

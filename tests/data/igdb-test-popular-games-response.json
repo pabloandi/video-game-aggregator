@@ -1,0 +1,591 @@
+[
+    {
+        "id": 141408,
+        "cover": {
+            "id": 121126,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2lgm.jpg"
+        },
+        "name": "Zaos",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            }
+        ],
+        "rating": 100.0,
+        "release_dates": [
+            {
+                "id": 220766,
+                "date": 1606435200
+            }
+        ],
+        "slug": "zaos",
+        "total_rating": 100.0
+    },
+    {
+        "id": 36550,
+        "cover": {
+            "id": 112257,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2em9.jpg"
+        },
+        "name": "Yakuza: Like a Dragon",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            },
+            {
+                "id": 167,
+                "abbreviation": "PS5"
+            },
+            {
+                "id": 169,
+                "abbreviation": "Series X"
+            }
+        ],
+        "rating": 96.3192837401399,
+        "release_dates": [
+            {
+                "id": 207992,
+                "date": 1579132800
+            },
+            {
+                "id": 209962,
+                "date": 1604966400
+            },
+            {
+                "id": 217343,
+                "date": 1614643200
+            },
+            {
+                "id": 217344,
+                "date": 1604966400
+            },
+            {
+                "id": 217345,
+                "date": 1604966400
+            },
+            {
+                "id": 217346,
+                "date": 1604966400
+            }
+        ],
+        "slug": "yakuza-like-a-dragon",
+        "total_rating": 91.0524990129271
+    },
+    {
+        "id": 116559,
+        "cover": {
+            "id": 82270,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rha.jpg"
+        },
+        "name": "Persona 5 Royal Limited Edition",
+        "platforms": [
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            }
+        ],
+        "rating": 95.7833956397824,
+        "release_dates": [
+            {
+                "id": 168688,
+                "date": 1572480000
+            },
+            {
+                "id": 168743,
+                "date": 1609372800
+            },
+            {
+                "id": 168744,
+                "date": 1609372800
+            },
+            {
+                "id": 168745,
+                "date": 1609372800
+            }
+        ],
+        "slug": "persona-5-royal-limited-edition",
+        "total_rating": 95.7833956397824
+    },
+    {
+        "id": 77537,
+        "cover": {
+            "id": 120407,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2kwn.jpg"
+        },
+        "name": "KORG Gadget",
+        "platforms": [
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            }
+        ],
+        "rating": 93.0,
+        "release_dates": [
+            {
+                "id": 216700,
+                "date": 1607040000
+            }
+        ],
+        "slug": "korg-gadget",
+        "total_rating": 93.0
+    },
+    {
+        "id": 26472,
+        "cover": {
+            "id": 83503,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1sfj.jpg"
+        },
+        "name": "Disco Elysium",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 14,
+                "abbreviation": "Mac"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            },
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            },
+            {
+                "id": 167,
+                "abbreviation": "PS5"
+            },
+            {
+                "id": 169,
+                "abbreviation": "Series X"
+            }
+        ],
+        "rating": 92.4168923513627,
+        "release_dates": [
+            {
+                "id": 177052,
+                "date": 1571097600
+            },
+            {
+                "id": 195996,
+                "date": 1587945600
+            },
+            {
+                "id": 221490,
+                "date": 1614556800
+            },
+            {
+                "id": 221491,
+                "date": 1614556800
+            },
+            {
+                "id": 221620,
+                "date": 1632960000
+            },
+            {
+                "id": 221621,
+                "date": 1632960000
+            },
+            {
+                "id": 221622,
+                "date": 1632960000
+            }
+        ],
+        "slug": "disco-elysium",
+        "total_rating": 90.77094617568136
+    },
+    {
+        "id": 1433,
+        "cover": {
+            "id": 101720,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co26hk.jpg"
+        },
+        "name": "Fire Emblem: Shadow Dragon and the Blade of Light",
+        "platforms": [
+            {
+                "id": 5,
+                "abbreviation": "Wii"
+            },
+            {
+                "id": 37,
+                "abbreviation": "3DS"
+            },
+            {
+                "id": 41,
+                "abbreviation": "WiiU"
+            },
+            {
+                "id": 99,
+                "abbreviation": "famicom"
+            },
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            }
+        ],
+        "rating": 90.13679631925359,
+        "release_dates": [
+            {
+                "id": 216383,
+                "date": 1255996800
+            },
+            {
+                "id": 216384,
+                "date": 640569600
+            },
+            {
+                "id": 216385,
+                "date": 1607040000
+            },
+            {
+                "id": 216386,
+                "date": 1607040000
+            },
+            {
+                "id": 216387,
+                "date": 1552435200
+            },
+            {
+                "id": 216388,
+                "date": 1401840000
+            },
+            {
+                "id": 216389,
+                "date": 1343779200
+            }
+        ],
+        "slug": "fire-emblem-shadow-dragon-and-the-blade-of-light",
+        "total_rating": 72.5683981596268
+    },
+    {
+        "id": 10760,
+        "cover": {
+            "id": 112131,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2eir.jpg"
+        },
+        "name": "Bloodstained: Ritual of the Night",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 39,
+                "abbreviation": "iOS"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            },
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            }
+        ],
+        "rating": 85.09515174260761,
+        "release_dates": [
+            {
+                "id": 169012,
+                "date": 1560816000
+            },
+            {
+                "id": 169013,
+                "date": 1560816000
+            },
+            {
+                "id": 169014,
+                "date": 1560816000
+            },
+            {
+                "id": 169015,
+                "date": 1561420800
+            },
+            {
+                "id": 218338,
+                "date": 1607040000
+            }
+        ],
+        "slug": "bloodstained-ritual-of-the-night",
+        "total_rating": 83.77484859857655
+    },
+    {
+        "id": 12527,
+        "cover": {
+            "id": 79455,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1pb3.jpg"
+        },
+        "name": "Yakuza 6: The Song of Life",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            }
+        ],
+        "rating": 84.9534404232672,
+        "release_dates": [
+            {
+                "id": 107011,
+                "date": 1481155200
+            },
+            {
+                "id": 141282,
+                "date": 1523923200
+            },
+            {
+                "id": 141283,
+                "date": 1523923200
+            },
+            {
+                "id": 223719,
+                "date": 1616630400
+            },
+            {
+                "id": 223720,
+                "date": 1616630400
+            }
+        ],
+        "slug": "yakuza-6-the-song-of-life",
+        "total_rating": 83.8002496233983
+    },
+    {
+        "id": 32617,
+        "cover": {
+            "id": 99406,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co24pa.jpg"
+        },
+        "name": "Rec Room",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 39,
+                "abbreviation": "iOS"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            }
+        ],
+        "rating": 84.54827226233579,
+        "release_dates": [
+            {
+                "id": 76821,
+                "date": 1467072000
+            },
+            {
+                "id": 117163,
+                "date": 1464739200
+            },
+            {
+                "id": 129967,
+                "date": 1511222400
+            },
+            {
+                "id": 216332,
+                "date": 1566432000
+            },
+            {
+                "id": 220945,
+                "date": 1606953600
+            }
+        ],
+        "slug": "rec-room",
+        "total_rating": 84.54827226233579
+    },
+    {
+        "id": 121752,
+        "cover": {
+            "id": 123536,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co2nbk.jpg"
+        },
+        "name": "Ghostrunner",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            },
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            }
+        ],
+        "rating": 83.46514551992829,
+        "release_dates": [
+            {
+                "id": 210814,
+                "date": 1603756800
+            },
+            {
+                "id": 210815,
+                "date": 1603756800
+            },
+            {
+                "id": 210816,
+                "date": 1603756800
+            },
+            {
+                "id": 216614,
+                "date": 1606694400
+            }
+        ],
+        "slug": "ghostrunner",
+        "total_rating": 83.08971561710699
+    },
+    {
+        "id": 110069,
+        "cover": {
+            "id": 89763,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1x9f.jpg"
+        },
+        "name": "Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            },
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            }
+        ],
+        "rating": 83.2447554440722,
+        "release_dates": [
+            {
+                "id": 171456,
+                "date": 1569542400
+            },
+            {
+                "id": 204888,
+                "date": 1607040000
+            },
+            {
+                "id": 204889,
+                "date": 1607040000
+            },
+            {
+                "id": 204961,
+                "date": 1607040000
+            }
+        ],
+        "slug": "dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition",
+        "total_rating": 87.4973777220361
+    },
+    {
+        "id": 103298,
+        "cover": {
+            "id": 75007,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1lvj.jpg"
+        },
+        "name": "DOOM Eternal",
+        "platforms": [
+            {
+                "id": 6,
+                "abbreviation": "PC"
+            },
+            {
+                "id": 48,
+                "abbreviation": "PS4"
+            },
+            {
+                "id": 49,
+                "abbreviation": "XONE"
+            },
+            {
+                "id": 130,
+                "abbreviation": "Switch"
+            },
+            {
+                "id": 167,
+                "abbreviation": "PS5"
+            },
+            {
+                "id": 169,
+                "abbreviation": "Series X"
+            },
+            {
+                "id": 203
+            }
+        ],
+        "rating": 82.937351937787,
+        "release_dates": [
+            {
+                "id": 177145,
+                "date": 1584662400
+            },
+            {
+                "id": 177146,
+                "date": 1584662400
+            },
+            {
+                "id": 177147,
+                "date": 1584662400
+            },
+            {
+                "id": 195840,
+                "date": 1584662400
+            },
+            {
+                "id": 219928,
+                "date": 1607385600
+            },
+            {
+                "id": 221406
+            },
+            {
+                "id": 221407
+            }
+        ],
+        "slug": "doom-eternal",
+        "total_rating": 85.42322142343895
+    }
+]
