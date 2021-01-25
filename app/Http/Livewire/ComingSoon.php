@@ -15,7 +15,7 @@ class ComingSoon extends Component
     {
         $current = Carbon::now()->timestamp;
 
-        $this->comingSoon = Cache::remember('most-anticipated', 7, function() use($current) {
+        $comingSoonUnformatted = Cache::remember('most-anticipated', 7, function() use($current) {
             return Http::withHeaders([
                 'Client-ID'        => config('services.igdb.client-id'),
                 'Authorization'    => config('services.igdb.client-auth'),
@@ -34,7 +34,19 @@ class ComingSoon extends Component
             ->json();
         });
 
+        $this->comingSoon = $this->formatForView($comingSoonUnformatted);
+    }
 
+    private function formatForView($params)
+    {
+        return collect($params)->map(function($game){
+            return collect($game)->merge([
+                'coverImageUrl' => $game['cover']['url'],
+                'route'     => route('games.show', $game['slug']),
+                'releaseDate'   =>
+                Carbon::parse(collect($game['release_dates'])->pluck('date')->pop())->format('M d, Y')
+            ]);
+        });
     }
 
     public function render()

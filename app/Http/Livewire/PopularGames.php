@@ -6,6 +6,7 @@ use Livewire\Component;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Str;
 
 class PopularGames extends Component
 {
@@ -16,7 +17,7 @@ class PopularGames extends Component
         $before = Carbon::now()->subMonth(2)->timestamp;
         $after = Carbon::now()->addMonths(2)->timestamp;
 
-        $this->popularGames = Cache::remember('popular-games', 7, function() use($before, $after) {
+        $popularGamesUnformatted = Cache::remember('popular-games', 7, function() use($before, $after) {
 
 
             return Http::withHeaders([
@@ -37,6 +38,20 @@ class PopularGames extends Component
             ->json();
         });
 
+        $this->popularGames = $this->formatForView($popularGamesUnformatted);
+
+    }
+
+    private function formatForView($params)
+    {
+        return collect($params)->map(function($game){
+            return collect($game)->merge([
+                'coverImageUrl' => Str::replaceFirst('thumb', 'cover_big', $game['cover']['url']),
+                'rating'    => isset($game['rating']) ? round($game['rating']) . " %" : null,
+                'platforms' => collect($game['platforms'])->pluck('abbreviation')->implode(', ')
+
+            ]);
+        });
     }
 
     public function render()

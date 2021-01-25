@@ -16,7 +16,7 @@ class MostAnticipated extends Component
         $afterFourMonths = Carbon::now()->addMonths(4)->timestamp;
         $current = Carbon::now()->timestamp;
 
-        $this->mostAnticipated = Cache::remember('most-anticipated', 7, function() use($afterFourMonths, $current) {
+        $mostAnticipatedUnformatted = Cache::remember('most-anticipated', 7, function() use($afterFourMonths, $current) {
             return Http::withHeaders([
                 'Client-ID'        => config('services.igdb.client-id'),
                 'Authorization'    => config('services.igdb.client-auth'),
@@ -36,7 +36,20 @@ class MostAnticipated extends Component
             ->json();
         });
 
+        $this->mostAnticipated = $this->formatForView($mostAnticipatedUnformatted);
 
+    }
+
+    private function formatForView($params)
+    {
+        return collect($params)->map(function($game){
+            return collect($game)->merge([
+                'coverImageUrl' => $game['cover']['url'],
+                'route'     => route('games.show', $game['slug']),
+                'releaseDate'   =>
+                Carbon::parse(collect($game['release_dates'])->pluck('date')->pop())->format('M d, Y')
+            ]);
+        });
     }
 
     public function render()
