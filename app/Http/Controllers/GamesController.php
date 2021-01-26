@@ -108,7 +108,7 @@ class GamesController extends Controller
                 : 0,
             'trailerUrl'      =>
                 isset($game['videos'])
-                ? "https://youtube.com/watch/" . $game['videos'][0]['video_id']
+                ? "https://youtube.com/embed/" . $game['videos'][0]['video_id']
                 : '#',
             'screenshots'   =>
                 isset($game['screenshots'])
