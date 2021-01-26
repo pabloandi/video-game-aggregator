@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1134,
+        "cover": {
+            "id": 77081,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1nh5.jpg"
+        },
+        "name": "Fake Castlevania: Aria of Sorrow",
+        "slug": "castlevania-aria-of-sorrow"
+    },
+    {
+        "id": 1130,
+        "cover": {
+            "id": 79719,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1pif.jpg"
+        },
+        "name": "Castlevania",
+        "slug": "castlevania--2"
+    },
+    {
+        "id": 16476,
+        "cover": {
+            "id": 93790,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20da.jpg"
+        },
+        "name": "Fake Castlevania: Vampire's Kiss",
+        "slug": "castlevania-vampires-kiss"
+    },
+    {
+        "id": 1116,
+        "cover": {
+            "id": 93797,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20dh.jpg"
+        },
+        "name": "Castlevania II: Simon's Quest",
+        "slug": "castlevania-ii-simon-s-quest"
+    },
+    {
+        "id": 1133,
+        "cover": {
+            "id": 79721,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1pih.jpg"
+        },
+        "name": "Castlevania: Harmony of Dissonance",
+        "slug": "castlevania-harmony-of-dissonance"
+    },
+    {
+        "id": 19468,
+        "cover": {
+            "id": 82451,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1rmb.jpg"
+        },
+        "name": "Castlevania Chronicles",
+        "slug": "castlevania-chronicles"
+    },
+    {
+        "id": 1127,
+        "cover": {
+            "id": 93791,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co20db.jpg"
+        },
+        "name": "Castlevania: Bloodlines",
+        "slug": "castlevania-bloodlines"
+    },
+    {
+        "id": 1123,
+        "cover": {
+            "id": 84825,
+            "url": "//images.igdb.com/igdb/image/upload/t_thumb/co1tg9.jpg"
+        },
+        "name": "Castlevania II: Belmont's Revenge",
+        "slug": "castlevania-ii-belmont-s-revenge"
+    }
+]

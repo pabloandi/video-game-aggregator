@@ -45,4 +45,9 @@ trait CreatesApplication
     {
         return json_decode(Storage::disk('tests_data')->get('igdb-test-coming-soon-games-response.json'));
     }
+
+    public function getSearchDropdownData()
+    {
+        return json_decode(Storage::disk('tests_data')->get('igdb-test-search-dropdown-games-response.json'));
+    }
 }
