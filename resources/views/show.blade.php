@@ -11,6 +11,8 @@
                         alt="cover"
                     >
                 </div>
+            @else
+                <x-game-no-cover-skeleton />
             @endisset
             <div class="lg:ml-12 lg:mr-64">
                 <h2 class="font-semibold text-4xl leading-tight mt-1">
@@ -19,16 +21,16 @@
                 <div class="text-gray-400">
                     @isset($game['genres'])
                         <span>
-                            {{ $game['genres'] }},
+                            {{ $game['genres'] }}
                         </span>
+                        &middot;
                     @endisset
-                    &middot;
                     @isset($game['companies'])
                         <span>
                             {{ $game['companies'] }}
                         </span>
+                        &middot;
                     @endisset
-                    &middot;
                     @isset($game['platforms'])
                         <span>
                             {{ $game['platforms'] }}
@@ -37,22 +39,30 @@
                 </div>
 
                 <div class="flex flex-wrap items-center mt-8">
-                    @isset($game['criticRating'])
+                    @isset($game['memberRating'])
                         <div class="flex items-center">
-                            <div class="w-16 h-16 bg-gray-800 rounded-full">
-                                <div class="font-semibold text-xs flex justify-center items-center h-full">
-                                    {{ $game['criticRating'] }}
-                                </div>
+                            <div id="memberRating" class="w-16 h-16 bg-gray-800 rounded-full relative text-sm">
+                                @push('scripts')
+                                    @include('_rating', [
+                                        'slug'      =>  'memberRating',
+                                        'rating'    =>  $game['memberRating'],
+                                        'event'     => null
+                                    ])
+                                @endpush
                             </div>
                             <div class="ml-4 text-xs">Member <br> Score</div>
                         </div>
                     @endisset
-                    @isset($game['memberRating'])
+                    @isset($game['criticRating'])
                         <div class="flex items-center ml-12">
-                            <div class="w-16 h-16 bg-gray-800 rounded-full">
-                                <div class="font-semibold text-xs flex justify-center items-center h-full">
-                                    {{ $game['memberRating'] }}
-                                </div>
+                            <div id="criticRating" class="w-16 h-16 bg-gray-800 rounded-full relative text-sm">
+                                @push('scripts')
+                                    @include('_rating', [
+                                        'slug'      =>  'criticRating',
+                                        'rating'    =>  $game['criticRating'],
+                                        'event'     => null
+                                    ])
+                                @endpush
                             </div>
                             <div class="ml-4 text-xs">Critic <br> Score</div>
                         </div>
@@ -132,22 +142,24 @@
         </div>
         {{-- end game details --}}
         {{-- game screenshots --}}
-        <div class="images-container border-b border-gray-800 pb-12 mt-8">
-            <h2 class="text-blue-500 uppercase tracking-wide font-semibold">Images</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-12 mt-8">
-                @foreach ($game['screenshots'] as $screenshot)
-                    <a href="{{ $screenshot['huge'] }}">
-                        <img
-                            src="{{ $screenshot['big'] }}"
-                            alt="screenshot"
-                            class="hover:opacity-75 transition ease-in-out duration-150"
-                        >
-                    </a>
-                @endforeach
+        @if (count($game['screenshots']) > 0)
+            <div class="images-container border-b border-gray-800 pb-12 mt-8">
+                <h2 class="text-blue-500 uppercase tracking-wide font-semibold">Images</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-12 mt-8">
+                    @foreach ($game['screenshots'] as $screenshot)
+                        <a href="{{ $screenshot['huge'] }}">
+                            <img
+                                src="{{ $screenshot['big'] }}"
+                                alt="screenshot"
+                                class="hover:opacity-75 transition ease-in-out duration-150"
+                            >
+                        </a>
+                    @endforeach
+
+                </div>
 
             </div>
-
-        </div>
+        @endif
         {{-- end game screenshots --}}
         {{-- similar games  --}}
         <div class="similar-games-container mt-8">

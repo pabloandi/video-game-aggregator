@@ -9,4 +9,12 @@
     @endforelse
 
 </div>
+
+@push('scripts')
+    @include('_rating', [
+        'event'     =>  'gameWithRatingAdded'
+    ])
+
+@endpush
+
 {{-- end popular games --}}

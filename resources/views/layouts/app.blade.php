@@ -7,6 +7,8 @@
     <title>Laracasts Video Games</title>
 
     <link rel="stylesheet" href="/css/main.css">
+    @stack('styles')
+
     @livewireStyles
 
 </head>
@@ -51,5 +53,8 @@
     </footer>
 
     @livewireScripts
+
+    <script src="/js/app.js"></script>
+    @stack('scripts')
 </body>
 </html>

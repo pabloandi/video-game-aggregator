@@ -82,25 +82,43 @@ class GamesController extends Controller
     private function formatGameForView($game)
     {
         return collect($game)->merge([
-            'coverImageUrl' => Str::replaceFirst('thumb', 'cover_big', $game['cover']['url']),
-            'genres'    =>  collect($game['genres'])->pluck('name')->implode(', '),
-            'companies'    =>  collect($game['involved_companies'])->pluck('company.name')->implode(', '),
-            'platforms' => collect($game['platforms'])->pluck('abbreviation')->implode(', '),
+            'coverImageUrl' =>
+                isset($game['cover'])
+                ? Str::replaceFirst('thumb', 'cover_big', $game['cover']['url'])
+                : null,
+            'genres'    =>
+                isset($game['cover'])
+                ? collect($game['genres'])->pluck('name')->implode(', ')
+                : null,
+            'companies'    =>
+                isset($game['cover'])
+                ? collect($game['involved_companies'])->pluck('company.name')->implode(', ')
+                :null,
+            'platforms' =>
+                isset($game['platforms'])
+                ? collect($game['platforms'])->pluck('abbreviation')->implode(', ')
+                : null,
             'memberRating'    =>
                 isset($game['rating'])
-                ? round($game['rating']) . "%"
-                : "0%",
+                ? round($game['rating'])
+                : 0,
             'criticRating'    =>
                 isset($game['aggregated_rating'])
-                ? round($game['aggregated_rating']) . "%"
-                : "0%",
-            'trailerUrl'      => "https://youtube.com/watch/" . $game['videos'][0]['video_id'],
-            'screenshots'   => collect($game['screenshots'])->map(function($screenshot){
-                return [
-                    'huge' => Str::replaceFirst('thumb', 'screenshot_huge', $screenshot['url']),
-                    'big' => Str::replaceFirst('thumb', 'screenshot_big', $screenshot['url'])
-                ];
-            })->take(9),
+                ? round($game['aggregated_rating'])
+                : 0,
+            'trailerUrl'      =>
+                isset($game['videos'])
+                ? "https://youtube.com/watch/" . $game['videos'][0]['video_id']
+                : '#',
+            'screenshots'   =>
+                isset($game['screenshots'])
+                ? collect($game['screenshots'])->map(function($screenshot){
+                        return [
+                            'huge' => Str::replaceFirst('thumb', 'screenshot_huge', $screenshot['url']),
+                            'big' => Str::replaceFirst('thumb', 'screenshot_big', $screenshot['url'])
+                        ];
+                    })->take(9)
+                : [],
             'similarGames'  => collect($game['similar_games'])->map(function($game){
                 return collect($game)->merge([
                     'route'             => route('games.show', $game['slug']),
@@ -110,7 +128,7 @@ class GamesController extends Controller
                         : null,
                     'rating'    =>
                         isset($game['rating'])
-                        ? round($game['rating']) . "%"
+                        ? round($game['rating'])
                         : null,
                     'platforms' =>
                         isset($game['platforms'])
@@ -119,18 +137,21 @@ class GamesController extends Controller
 
                 ]);
             })->take(6),
-            'social'    =>  [
-                'website'   => collect($game['websites'])->first(),
-                'facebook'   => collect($game['websites'])->filter(function($website){
-                    return Str::contains($website['url'], 'facebook');
-                })->first(),
-                'instagram'   => collect($game['websites'])->filter(function($website){
-                    return Str::contains($website['url'], 'instagram');
-                })->first(),
-                'twitter'   => collect($game['websites'])->filter(function($website){
-                    return Str::contains($website['url'], 'twitter');
-                })->first(),
-            ]
+            'social'    =>
+                isset($game['websites'])
+                ?   [
+                        'website'   => collect($game['websites'])->first(),
+                        'facebook'   => collect($game['websites'])->filter(function($website){
+                            return Str::contains($website['url'], 'facebook');
+                        })->first(),
+                        'instagram'   => collect($game['websites'])->filter(function($website){
+                            return Str::contains($website['url'], 'instagram');
+                        })->first(),
+                        'twitter'   => collect($game['websites'])->filter(function($website){
+                            return Str::contains($website['url'], 'twitter');
+                        })->first(),
+                    ]
+                : null,
 
 
 
